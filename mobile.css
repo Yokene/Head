@@ -1,0 +1,38 @@
+@media (max-width: 1330px) {
+
+    .container,
+    .technology {
+        max-width: 1200px;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    /* карточки / технологии */
+    .technology-cards,
+    .products-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .product-info{
+        height: 40%;
+    }
+
+    .card-image{
+        height: 60%;
+    }
+}
+
+
+.technology {
+    width: 100%;
+    background: #f2f2f2;
+}

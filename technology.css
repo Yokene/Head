@@ -8,6 +8,7 @@
     color: #c7c7c7;
     font-size: 23px;
     margin: 10px;
+    display: inline-block;
 }
 
 .card-h1{
@@ -57,7 +58,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 350px;
     padding-top: 50px;
 }
 
