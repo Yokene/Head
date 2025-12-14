@@ -10,6 +10,7 @@ body{
 html{
     scroll-behavior: smooth;
     scroll-padding-top: var(--header-height);
+
 }
 
 *{
@@ -20,6 +21,10 @@ body::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
 
 .main-container{
     min-height: 100vh;
