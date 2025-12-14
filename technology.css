@@ -1,0 +1,75 @@
+.tech-h1{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.tech-p{
+    color: #c7c7c7;
+    font-size: 23px;
+    margin: 10px;
+}
+
+.card-h1{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.card-p{
+    color: #c7c7c7;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.technology-container{
+    padding-top: 80px;
+    padding-bottom: 80px ;
+    background-color: #2f2f2f;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 3px #444444 solid;
+    border-bottom: 3px #444444 solid;
+}
+
+.technology-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.icon{
+    background-color: #464646;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    user-select: none;
+}
+
+.tech-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    padding-top: 50px;
+}
+
+.tech-cards-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 40px;
+}
+
+.h1-height{
+    height: 100px;
+}

@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    -ms-overflow-style: none;  /* 3. Для IE/Edge */
+    scrollbar-width: none;     /* 2. Для Firefox */
+    overflow: scroll;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.main-container{
+    min-height: 100vh;
+
+    background: linear-gradient(
+        180deg,
+        #2f2f2f 0%,
+        #1c1c1c 45%,
+        #0e0e0e 100%
+    );
+
+    padding: 15px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.header.scrolled{
+    background-color: #0e0e0e9f;
+    
+    transition: 0.1s ease;
+
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px #c7c7c7 solid;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    margin: 10px;
+}
+
+.nav-logo{
+    position: absolute;
+    left: 0;
+    user-select: none;
+}
+
+.nav-links{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo{
+    height: auto;
+    width: 125px;
+    cursor: pointer;
+}
+
+.header-links{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    color: #c7c7c7;
+    transition: 0.3s ease;
+}
+
+.header-links:hover{
+    color: white;
+}
+
+.nav-about{
+    width: 40px;
+}
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.about-h1{
+    color: white;
+    font-size: 150px;
+    margin: 0;
+}
+
+.about-p{
+    color: #c7c7c7;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.about-button{
+    width: 200px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 40px;
+    border: 0;
+    font-size: 19px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #a9a9a9;
+}
+
+.clickable{
+    cursor: pointer;
+}

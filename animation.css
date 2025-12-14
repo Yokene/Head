@@ -1,0 +1,21 @@
+.card{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+}
+
+.card.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tech-card{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-out;
+}
+
+.tech-card.show{
+    opacity: 1;
+    transform: translateY(0);
+}
