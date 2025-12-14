@@ -12,22 +12,21 @@
     .products-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-    }
-
-    h1 {
-        font-size: 42px;
-    }
-
-    h2 {
-        font-size: 32px;
+        transition: 0.3s ease;
     }
 
     .product-info{
         height: 40%;
+        transition: 0.3s ease;
     }
 
     .card-image{
         height: 60%;
+        transition: 0.3s ease;
+    }
+
+    .card{
+        transition: 0.3s ease;
     }
 }
 
