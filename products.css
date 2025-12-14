@@ -115,3 +115,37 @@ body{
     background-color: #c7c7c7;
 }
 
+
+
+@media (max-width: 1330px) {
+
+    .container,
+    .technology {
+        max-width: 1200px;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    /* карточки / технологии */
+    .technology-cards,
+    .products-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        transition: 0.3s ease;
+    }
+
+
+    .product-info{
+        height: 40%;
+        transition: 0.3s ease;
+    }
+
+    .card-image{
+        height: 60%;
+        transition: 0.3s ease;
+    }
+
+    .card{
+        transition: 0.3s ease;
+    }
+}
